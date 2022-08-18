@@ -11,7 +11,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableJpaRepositories("com.navneet.executor")
 @EntityScan("com.navneet.executor")
 public class ExecutorApplication {
-
+//test
 	public static void main(String[] args) {
 		SpringApplication.run(ExecutorApplication.class, args);
 	}
